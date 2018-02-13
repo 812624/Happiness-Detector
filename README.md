@@ -6,8 +6,15 @@ A simple **Keras model** to detect whether a video has happiness inducing conten
 
 > My motive behind creating this model is to *know in advance* whether a video has *happiness inducing factors or not*.
 
+###### Dependencies
+- Keras
+- Opencv '3.2.0'
+- ffmpeg '3.2.4'
+- Make sure they both are compatible with each other otherwise it's 100% painful to struggle with *Videocapture*.
+
 ## Future Work
 - Model for now just detects happiness in the face captured inside a frame. Moreover, I have implemented the model on a very small dataset with 600 training images and about 150 test images. We can surely increase the accuracy with more precise dataset. 
 - This project for now lies in it's very early stage, we can surely implement *speech recognition* (may be some NLP as well), *picture perception test*, *object detection* and some *text segmentation* to make this model bullet proof. 
 - We can also make an **Android Application** out of this model as well where we just need to open the video with our application and our application can tell whether one should see the video.
 - **_Peace..!!_**
+
